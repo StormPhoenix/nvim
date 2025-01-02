@@ -1,9 +1,5 @@
-require("plugins.plugins-setup")
+require("config.lazy")
 
-require("core.options")
-require("core.keymaps")
+require("config.options")
+require("config.keymaps")
 
-require("plugins.lualine")
-require("plugins.nvim-tree")
-
-require("plugins.treesitter")

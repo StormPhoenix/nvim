@@ -17,4 +17,4 @@ keymap.set("n", "<leader>sh", "<C-w>s")
 -- cancel highlight
 
 -- ------- plugins ---------
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>e", ":NvimTreeOpen<CR>")
