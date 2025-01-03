@@ -1,5 +1,5 @@
 return {
- {
+    {
         "nvim-telescope/telescope.nvim",
         dependencies = {
             -- 文件管理器
