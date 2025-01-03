@@ -24,7 +24,8 @@ vim.g.maplocalleader = "\\"
 vim.opt.termguicolors = true
 
 require("lazy").setup({
-  {
+  spec = {
     import = "plugins"
-  }
+  },
+  install = { colorscheme = { "gruvbox", "habamax" } },
 })

@@ -23,7 +23,3 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
--- appearance
-opt.termguicolors = true
-opt.signcolumn = "yes"
--- vim.cmd[[colorscheme tokyonight-moon]]
