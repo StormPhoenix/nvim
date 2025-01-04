@@ -2,14 +2,19 @@ return {
 
 	-- Colorscheme
 	{
-		"ellisonleao/gruvbox.nvim",
+		-- 	"ellisonleao/gruvbox.nvim",
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
 	},
 
 	{
 		"LazyVim/LazyVim",
 		opts = {
 			-- colorscheme = "gruvbox",
-			colorscheme = "tokyonight",
+			style = "night",
+			colorscheme = "tokyonight-storm",
 			defaults = {
 				-- 启用默认的 autocmds
 				autocmds = true, -- lazyvim.config.autocmds

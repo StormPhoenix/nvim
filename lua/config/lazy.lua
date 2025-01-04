@@ -21,7 +21,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
-vim.opt.termguicolors = true
+-- vim.opt.termguicolors = true
 
 require("lazy").setup({
 	spec = {
@@ -29,8 +29,9 @@ require("lazy").setup({
 		{ import = "plugins" },
 	},
 
-	install = { colorscheme = { "gruvbox", "habamax" } },
-	-- install = { colorscheme = { "tokyonight", "habamax" } },
+	-- install = { colorscheme = { "gruvbox", "habamax" } },
+	install = { colorscheme = { "tokyonight", "gruvbox", "habamax" } },
+
 	checker = {
 		enabled = true, -- check for plugin updates automatically
 		frequency = 60 * 60 * 24 * 7, -- check for updates every week

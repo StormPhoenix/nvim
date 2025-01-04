@@ -23,3 +23,4 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
+vim.g.lazyvim_python_lsp = "pyright"
